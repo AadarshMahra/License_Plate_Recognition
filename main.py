@@ -4,7 +4,7 @@ import numpy as np
 import imutils
 import easyocr
 
-img1 = cv2.imread('media/ford.jpg')
+img1 = cv2.imread('media/bmw3.jpeg')
 img1_gray = cv2.cvtColor(img1, cv2.COLOR_BGR2GRAY)
 # plt.imshow(cv2.cvtColor(img1_gray, cv2.COLOR_BGR2RGB))
 # plt.show()
