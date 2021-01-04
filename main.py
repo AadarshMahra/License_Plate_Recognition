@@ -4,7 +4,7 @@ import numpy as np
 import imutils
 import easyocr
 
-img1 = cv2.imread('media/bmw3.jpeg')
+img1 = cv2.imread('media/ford.jpg')
 img1_gray = cv2.cvtColor(img1, cv2.COLOR_BGR2GRAY)
 # plt.imshow(cv2.cvtColor(img1_gray, cv2.COLOR_BGR2RGB))
 # plt.show()
@@ -43,3 +43,4 @@ plt.show()
 reader = easyocr.Reader(['en'])
 result = reader.readtext(cropped)
 print(result)
+print("RESULT: {}".format(result[0][1]))
