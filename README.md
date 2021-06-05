@@ -1,5 +1,6 @@
 # License Plate Recognition
-Project that reads images of license plates using OpenCV and EasyOCR. 
+Project that reads images of license plates using OpenCV and EasyOCR.
+ 
 ![bmw](https://github.com/AadarshMahra/License_Plate_Recognition/blob/main/media/bmw.jpg?raw=true)
 ## Locates Image
 ![located](https://media.discordapp.net/attachments/699093898915610694/795577611854151680/Screen_Shot_2021-01-04_at_1.00.01_AM.png?width=800&height=462)
