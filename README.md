@@ -7,6 +7,6 @@ Project that reads images of license plates using OpenCV and EasyOCR.
 ![crop](https://media.discordapp.net/attachments/699093898915610694/795577677490290709/Screen_Shot_2021-01-04_at_1.00.16_AM.png?width=800&height=255)
 ## Read using EasyOCR 
 ![read](https://media.discordapp.net/attachments/699093898915610694/795577678915698738/Screen_Shot_2021-01-04_at_1.00.49_AM.png)
-## Things to Work/Improve on: 
-- not all images work 
+## FUTURE STEPS: 
+- improve accuracy for all images 
 - train my own model instead of using EasyOCR to read image
