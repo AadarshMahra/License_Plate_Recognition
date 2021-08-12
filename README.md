@@ -1,13 +1,25 @@
 # License Plate Recognition
-Project that reads images of license plates using OpenCV and EasyOCR.
+This project locates license plates within larger images. Then, the license plate is read using a Keras model that is pre-trained on a Kaggle [dataset](https://www.kaggle.com/aladdinss/license-plate-digits-classification-dataset). 
+
+Special thanks to Theophilebuyssens. I used his character segmentation algorithm to isolate the license plate characters so I could individually pass them through my neural network. [Here's a link to his article](https://medium.com/@theophilebuyssens/license-plate-recognition-using-opencv-yolo-and-keras-f5bfe03afc65). 
  
 ![bmw](https://github.com/AadarshMahra/License_Plate_Recognition/blob/main/media/bmw.jpg?raw=true)
 ## Locates Image
 ![located](https://media.discordapp.net/attachments/699093898915610694/795577611854151680/Screen_Shot_2021-01-04_at_1.00.01_AM.png?width=800&height=462)
-## Crops Image for Reading
-![crop](https://media.discordapp.net/attachments/699093898915610694/795577677490290709/Screen_Shot_2021-01-04_at_1.00.16_AM.png?width=800&height=255)
-## Read using EasyOCR 
-![read](https://media.discordapp.net/attachments/699093898915610694/795577678915698738/Screen_Shot_2021-01-04_at_1.00.49_AM.png)
+
+## Image is cropped. Then it's read using the Keras model  
+![read](https://media.discordapp.net/attachments/699093898915610694/875283469192794122/new_guess.png)
+
+
 ## FUTURE STEPS: 
-- improve accuracy for all images 
-- train my own model instead of using EasyOCR to read image
+### For the model : 
+- test model on more out of sample data 
+- create confusion matrix to further examine model accuracy 
+
+### For the rest of the project: 
+- improve accuracy for all images, not just clear ones
+- avoid mistake where two contours are found in a zero 
+
+
+     ![edge](https://media.discordapp.net/attachments/699093898915610694/875287868824780851/zero_double_contour.png?width=379&amp;height=600)
+
