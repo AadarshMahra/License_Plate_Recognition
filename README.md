@@ -17,4 +17,5 @@ This project locates license plates within larger images. Then, the license plat
 
 ### For the rest of the project: 
 - improve accuracy for all images, not just clear ones
-- avoid mistake where two contours are found in a zero  
+- avoid mistake where two contours are found in a zero 
+![edge](https://media.discordapp.net/attachments/699093898915610694/875287868824780851/zero_double_contour.png?width=379&amp;height=600" )
