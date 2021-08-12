@@ -1,6 +1,6 @@
 # License Plate Recognition
 This project locates license plates within larger images. Then, the license plate is read using a Keras model that is pre-trained on a Kaggle [dataset](https://www.kaggle.com/aladdinss/license-plate-digits-classification-dataset). 
-
+Special thanks to Theophilebuyssens. I used his character segmentation algorithm to isolate the license plate characters so I could individually pass them through my neural network. [Here's a link to his article](https://medium.com/@theophilebuyssens/license-plate-recognition-using-opencv-yolo-and-keras-f5bfe03afc65). 
  
 ![bmw](https://github.com/AadarshMahra/License_Plate_Recognition/blob/main/media/bmw.jpg?raw=true)
 ## Locates Image
