@@ -4,7 +4,7 @@ This project locates license plates within larger images. Then, the license plat
 Special thanks to Theophilebuyssens. I used his character segmentation algorithm to isolate the license plate characters so I could individually pass them through my neural network. [Here's a link to his article](https://medium.com/@theophilebuyssens/license-plate-recognition-using-opencv-yolo-and-keras-f5bfe03afc65). 
  
 ![bmw](https://github.com/AadarshMahra/License_Plate_Recognition/blob/main/media/bmw.jpg?raw=true)
-## Locates Image
+## Locates License Plate
 ![located](https://media.discordapp.net/attachments/699093898915610694/795577611854151680/Screen_Shot_2021-01-04_at_1.00.01_AM.png?width=800&height=462)
 
 ## Image is cropped. Then it's read using the Keras model  
